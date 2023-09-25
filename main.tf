@@ -1,5 +1,5 @@
 module "vpc" {
-  source   = "../z.modules/vpc"
+  source   = "z.modules/vpc"
   vpc_cidr = "10.10.0.0/16"
   zones    = ["a", "b", "c"]
   DMK     = var.DMK
