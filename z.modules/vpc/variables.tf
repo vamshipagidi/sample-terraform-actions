@@ -10,7 +10,7 @@ variable "env" {
 
 variable "region" {
   type    = string
-  default = "us-west-2"
+  default = "us-west-1"
 }
 
 variable "zones" {
