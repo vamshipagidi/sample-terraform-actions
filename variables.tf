@@ -4,7 +4,7 @@ variable "region" {
 
 variable "env" {
   description = "Environment to be managed by Terraform"
-  default     = "dev"
+  default     = "prod"
 }
 
 variable "DMK" {
