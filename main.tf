@@ -5,10 +5,10 @@ module "vpc" {
   DMK     = var.DMK
   env      = var.env
 
-  public_subnet_cidr_blocks = {zone0 = "10.10.0.0/24",zone1 = "10.10.1.0/24",zone2 = "10.10.2.0/24"
+  public_subnet_cidr_blocks = {zone0 = "10.10.0.0/24",zone1 = "10.10.11.0/24",zone2 = "10.10.12.0/24"
   }
-  private_subnet_cidr_blocks = {zone0 = "10.10.3.0/24",zone1 = "10.10.4.0/24",zone2 = "10.10.5.0/24"
+  private_subnet_cidr_blocks = {zone0 = "10.10.13.0/24",zone1 = "10.10.14.0/24",zone2 = "10.10.15.0/24"
   }
-  db_private_subnet_cidr_blocks = {zone0 = "10.10.6.0/24",zone1 = "10.10.7.0/24",zone2 = "10.10.8.0/24"
+  db_private_subnet_cidr_blocks = {zone0 = "10.10.16.0/24",zone1 = "10.10.17.0/24",zone2 = "10.10.18.0/24"
   }
 }
