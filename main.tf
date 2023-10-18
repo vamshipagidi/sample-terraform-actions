@@ -5,7 +5,7 @@ module "vpc" {
   DMK     = var.DMK
   env      = var.env
 
-  public_subnet_cidr_blocks = {zone0 = "10.110.0.0/24",zone1 = "10.10.11.0/24",zone2 = "10.10.12.0/24"
+  public_subnet_cidr_blocks = {zone0 = "10.10.110.0/24",zone1 = "10.10.11.0/24",zone2 = "10.10.12.0/24"
   }
   private_subnet_cidr_blocks = {zone0 = "10.10.13.0/24",zone1 = "10.10.14.0/24",zone2 = "10.10.15.0/24"
   }
